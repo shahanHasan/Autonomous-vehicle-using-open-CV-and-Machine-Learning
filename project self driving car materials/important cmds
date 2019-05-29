@@ -1,0 +1,719 @@
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    eventlet-0.23.0            |        py37_1000         534 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         534 KB
+
+The following NEW packages will be INSTALLED:
+
+  eventlet           conda-forge/osx-64::eventlet-0.23.0-py37_1000
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+eventlet-0.23.0      | 534 KB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(base) sirin:behaviour clonning alpona$ clear
+
+(base) sirin:behaviour clonning alpona$ 
+(base) sirin:behaviour clonning alpona$ source activate myenviron
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+Traceback (most recent call last):
+  File "drive.py", line 1, in <module>
+    import socketio
+ImportError: No module named socketio
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+Traceback (most recent call last):
+  File "drive.py", line 1, in <module>
+    import socketio
+ImportError: No module named socketio
+(myenviron) sirin:behaviour clonning alpona$ conda install -c conda-forge python-socketio
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - python-socketio
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bzip2-1.0.6                |    h1de35cc_1002         148 KB  conda-forge
+    libcxx-8.0.0               |                2         1.0 MB  conda-forge
+    libcxxabi-8.0.0            |                2         134 KB  conda-forge
+    libffi-3.2.1               |    h6de7cb9_1006          43 KB  conda-forge
+    ncurses-6.1                |    h0a44026_1002         1.3 MB  conda-forge
+    pip-19.1                   |           py37_0         1.8 MB  conda-forge
+    python-3.7.3               |       h0d93f26_0        20.7 MB  conda-forge
+    readline-7.0               |    hcfe32e1_1001         393 KB  conda-forge
+    setuptools-41.0.1          |           py37_0         613 KB  conda-forge
+    six-1.12.0                 |        py37_1000          22 KB  conda-forge
+    sqlite-3.26.0              |    h1765d9f_1001         2.4 MB  conda-forge
+    tk-8.6.9                   |    ha441bb4_1001         3.2 MB  conda-forge
+    wheel-0.33.1               |           py37_0          34 KB  conda-forge
+    xz-5.2.4                   |    h1de35cc_1001         268 KB  conda-forge
+    zlib-1.2.11                |    h1de35cc_1004         101 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        32.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              conda-forge/osx-64::bzip2-1.0.6-h1de35cc_1002
+  ca-certificates    conda-forge/osx-64::ca-certificates-2019.3.9-hecc5488_0
+  certifi            conda-forge/osx-64::certifi-2019.3.9-py37_0
+  libcxx             conda-forge/osx-64::libcxx-8.0.0-2
+  libcxxabi          conda-forge/osx-64::libcxxabi-8.0.0-2
+  libffi             conda-forge/osx-64::libffi-3.2.1-h6de7cb9_1006
+  ncurses            conda-forge/osx-64::ncurses-6.1-h0a44026_1002
+  openssl            conda-forge/osx-64::openssl-1.1.1b-h01d97ff_2
+  pip                conda-forge/osx-64::pip-19.1-py37_0
+  python             conda-forge/osx-64::python-3.7.3-h0d93f26_0
+  python-engineio    conda-forge/noarch::python-engineio-3.0.0-py_0
+  python-socketio    conda-forge/noarch::python-socketio-4.0.0-py_0
+  readline           conda-forge/osx-64::readline-7.0-hcfe32e1_1001
+  setuptools         conda-forge/osx-64::setuptools-41.0.1-py37_0
+  six                conda-forge/osx-64::six-1.12.0-py37_1000
+  sqlite             conda-forge/osx-64::sqlite-3.26.0-h1765d9f_1001
+  tk                 conda-forge/osx-64::tk-8.6.9-ha441bb4_1001
+  wheel              conda-forge/osx-64::wheel-0.33.1-py37_0
+  xz                 conda-forge/osx-64::xz-5.2.4-h1de35cc_1001
+  zlib               conda-forge/osx-64::zlib-1.2.11-h1de35cc_1004
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+libcxxabi-8.0.0      | 134 KB    | ########################################################### | 100% 
+python-3.7.3         | 20.7 MB   | ########################################################### | 100% 
+tk-8.6.9             | 3.2 MB    | ########################################################### | 100% 
+six-1.12.0           | 22 KB     | ########################################################### | 100% 
+libffi-3.2.1         | 43 KB     | ########################################################### | 100% 
+pip-19.1             | 1.8 MB    | ########################################################### | 100% 
+zlib-1.2.11          | 101 KB    | ########################################################### | 100% 
+xz-5.2.4             | 268 KB    | ########################################################### | 100% 
+setuptools-41.0.1    | 613 KB    | ########################################################### | 100% 
+ncurses-6.1          | 1.3 MB    | ########################################################### | 100% 
+bzip2-1.0.6          | 148 KB    | ########################################################### | 100% 
+sqlite-3.26.0        | 2.4 MB    | ########################################################### | 100% 
+readline-7.0         | 393 KB    | ########################################################### | 100% 
+wheel-0.33.1         | 34 KB     | ########################################################### | 100% 
+libcxx-8.0.0         | 1.0 MB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+Traceback (most recent call last):
+  File "drive.py", line 2, in <module>
+    import eventlet
+ModuleNotFoundError: No module named 'eventlet'
+(myenviron) sirin:behaviour clonning alpona$ conda install -c conda-forge eventlet
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - eventlet
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    asn1crypto-0.24.0          |        py37_1003         154 KB  conda-forge
+    cffi-1.12.3                |   py37hccf1714_0         211 KB  conda-forge
+    cryptography-2.6.1         |   py37h212c5bf_0         576 KB  conda-forge
+    idna-2.8                   |        py37_1000         100 KB  conda-forge
+    pycparser-2.19             |           py37_1         171 KB  conda-forge
+    pyopenssl-19.0.0           |           py37_0          81 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         1.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  asn1crypto         conda-forge/osx-64::asn1crypto-0.24.0-py37_1003
+  cffi               conda-forge/osx-64::cffi-1.12.3-py37hccf1714_0
+  cryptography       conda-forge/osx-64::cryptography-2.6.1-py37h212c5bf_0
+  eventlet           conda-forge/osx-64::eventlet-0.23.0-py37_1000
+  greenlet           pkgs/main/osx-64::greenlet-0.4.15-py37h1de35cc_0
+  idna               conda-forge/osx-64::idna-2.8-py37_1000
+  pycparser          conda-forge/osx-64::pycparser-2.19-py37_1
+  pyopenssl          conda-forge/osx-64::pyopenssl-19.0.0-py37_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+asn1crypto-0.24.0    | 154 KB    | ########################################################### | 100% 
+pycparser-2.19       | 171 KB    | ########################################################### | 100% 
+idna-2.8             | 100 KB    | ########################################################### | 100% 
+cffi-1.12.3          | 211 KB    | ########################################################### | 100% 
+cryptography-2.6.1   | 576 KB    | ########################################################### | 100% 
+pyopenssl-19.0.0     | 81 KB     | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+Traceback (most recent call last):
+  File "drive.py", line 3, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+(myenviron) sirin:behaviour clonning alpona$ conda install -c anaconda flask
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - flask
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2019.3.9           |           py37_0         155 KB  anaconda
+    click-7.0                  |           py37_0         118 KB  anaconda
+    itsdangerous-1.1.0         |           py37_0          26 KB  anaconda
+    jinja2-2.10.1              |           py37_0         188 KB  anaconda
+    markupsafe-1.1.1           |   py37h1de35cc_0          28 KB  anaconda
+    openssl-1.1.1              |       h1de35cc_0         4.6 MB  anaconda
+    werkzeug-0.15.2            |             py_0         263 KB  anaconda
+    ------------------------------------------------------------
+                                           Total:         5.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  click              anaconda/osx-64::click-7.0-py37_0
+  flask              anaconda/osx-64::flask-1.0.2-py37_1
+  itsdangerous       anaconda/osx-64::itsdangerous-1.1.0-py37_0
+  jinja2             anaconda/osx-64::jinja2-2.10.1-py37_0
+  markupsafe         anaconda/osx-64::markupsafe-1.1.1-py37h1de35cc_0
+  werkzeug           anaconda/noarch::werkzeug-0.15.2-py_0
+
+The following packages will be UPDATED:
+
+  openssl            conda-forge::openssl-1.1.1b-h01d97ff_2 --> anaconda::openssl-1.1.1-h1de35cc_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    conda-forge::ca-certificates-2019.3.9~ --> anaconda::ca-certificates-2019.1.23-0
+  certifi                                       conda-forge --> anaconda
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+markupsafe-1.1.1     | 28 KB     | ########################################################### | 100% 
+jinja2-2.10.1        | 188 KB    | ########################################################### | 100% 
+itsdangerous-1.1.0   | 26 KB     | ########################################################### | 100% 
+openssl-1.1.1        | 4.6 MB    | ########################################################### | 100% 
+click-7.0            | 118 KB    | ########################################################### | 100% 
+certifi-2019.3.9     | 155 KB    | ########################################################### | 100% 
+werkzeug-0.15.2      | 263 KB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+(92991) wsgi starting up on http://0.0.0.0:4567
+^Cwsgi exiting
+(92991) wsgi exited, is_accepting=True
+(myenviron) sirin:behaviour clonning alpona$ source activate myenviron
+-bash: activate: No such file or directory
+(myenviron) sirin:behaviour clonning alpona$ conda create --name myenviron
+WARNING: A conda environment already exists at '/anaconda3/envs/myenviron'
+Remove existing environment (y/[n])? y
+
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate myenviron
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(myenviron) sirin:behaviour clonning alpona$ conda activate myenviron
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+Traceback (most recent call last):
+  File "drive.py", line 1, in <module>
+    import socketio
+ImportError: No module named socketio
+(myenviron) sirin:behaviour clonning alpona$ python3 drive.py
+Traceback (most recent call last):
+  File "drive.py", line 1, in <module>
+    import socketio
+ModuleNotFoundError: No module named 'socketio'
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+Traceback (most recent call last):
+  File "drive.py", line 1, in <module>
+    import socketio
+ImportError: No module named socketio
+(myenviron) sirin:behaviour clonning alpona$ cd
+(myenviron) sirin:~ alpona$ conda install -c conda-forge eventlet
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - eventlet
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    asn1crypto-0.24.0          |        py36_1003         154 KB  conda-forge
+    certifi-2019.3.9           |           py36_0         149 KB  conda-forge
+    cffi-1.12.3                |   py36hccf1714_0         210 KB  conda-forge
+    cryptography-2.6.1         |   py36h212c5bf_0         564 KB  conda-forge
+    eventlet-0.23.0            |        py36_1000         535 KB  conda-forge
+    greenlet-0.4.13            |           py36_0          17 KB  conda-forge
+    idna-2.8                   |        py36_1000         132 KB  conda-forge
+    pip-19.1                   |           py36_0         1.8 MB  conda-forge
+    pycparser-2.19             |           py36_1         173 KB  conda-forge
+    pyopenssl-19.0.0           |           py36_0          81 KB  conda-forge
+    python-3.6.7               |    h8dc6b48_1004        20.5 MB  conda-forge
+    setuptools-41.0.1          |           py36_0         620 KB  conda-forge
+    six-1.12.0                 |        py36_1000          22 KB  conda-forge
+    wheel-0.33.1               |           py36_0          34 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        25.0 MB
+
+The following NEW packages will be INSTALLED:
+
+  asn1crypto         conda-forge/osx-64::asn1crypto-0.24.0-py36_1003
+  ca-certificates    conda-forge/osx-64::ca-certificates-2019.3.9-hecc5488_0
+  certifi            conda-forge/osx-64::certifi-2019.3.9-py36_0
+  cffi               conda-forge/osx-64::cffi-1.12.3-py36hccf1714_0
+  cryptography       conda-forge/osx-64::cryptography-2.6.1-py36h212c5bf_0
+  eventlet           conda-forge/osx-64::eventlet-0.23.0-py36_1000
+  greenlet           conda-forge/osx-64::greenlet-0.4.13-py36_0
+  idna               conda-forge/osx-64::idna-2.8-py36_1000
+  libcxx             conda-forge/osx-64::libcxx-8.0.0-2
+  libcxxabi          conda-forge/osx-64::libcxxabi-8.0.0-2
+  libffi             conda-forge/osx-64::libffi-3.2.1-h6de7cb9_1006
+  ncurses            conda-forge/osx-64::ncurses-6.1-h0a44026_1002
+  openssl            conda-forge/osx-64::openssl-1.1.1b-h01d97ff_2
+  pip                conda-forge/osx-64::pip-19.1-py36_0
+  pycparser          conda-forge/osx-64::pycparser-2.19-py36_1
+  pyopenssl          conda-forge/osx-64::pyopenssl-19.0.0-py36_0
+  python             conda-forge/osx-64::python-3.6.7-h8dc6b48_1004
+  readline           conda-forge/osx-64::readline-7.0-hcfe32e1_1001
+  setuptools         conda-forge/osx-64::setuptools-41.0.1-py36_0
+  six                conda-forge/osx-64::six-1.12.0-py36_1000
+  sqlite             conda-forge/osx-64::sqlite-3.26.0-h1765d9f_1001
+  tk                 conda-forge/osx-64::tk-8.6.9-ha441bb4_1001
+  wheel              conda-forge/osx-64::wheel-0.33.1-py36_0
+  xz                 conda-forge/osx-64::xz-5.2.4-h1de35cc_1001
+  zlib               conda-forge/osx-64::zlib-1.2.11-h1de35cc_1004
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+cryptography-2.6.1   | 564 KB    | ########################################################### | 100% 
+greenlet-0.4.13      | 17 KB     | ########################################################### | 100% 
+wheel-0.33.1         | 34 KB     | ########################################################### | 100% 
+pycparser-2.19       | 173 KB    | ########################################################### | 100% 
+pyopenssl-19.0.0     | 81 KB     | ########################################################### | 100% 
+setuptools-41.0.1    | 620 KB    | ########################################################### | 100% 
+eventlet-0.23.0      | 535 KB    | ########################################################### | 100% 
+asn1crypto-0.24.0    | 154 KB    | ########################################################### | 100% 
+python-3.6.7         | 20.5 MB   | ########################################################### | 100% 
+certifi-2019.3.9     | 149 KB    | ########################################################### | 100% 
+idna-2.8             | 132 KB    | ########################################################### | 100% 
+cffi-1.12.3          | 210 KB    | ########################################################### | 100% 
+six-1.12.0           | 22 KB     | ########################################################### | 100% 
+pip-19.1             | 1.8 MB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:~ alpona$ conda install -c anaconda flask
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - flask
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2019.3.9           |           py36_0         155 KB  anaconda
+    click-7.0                  |           py36_0         118 KB  anaconda
+    flask-1.0.2                |           py36_1         119 KB  anaconda
+    itsdangerous-1.1.0         |           py36_0          26 KB  anaconda
+    jinja2-2.10.1              |           py36_0         188 KB  anaconda
+    markupsafe-1.1.1           |   py36h1de35cc_0          28 KB  anaconda
+    ------------------------------------------------------------
+                                           Total:         634 KB
+
+The following NEW packages will be INSTALLED:
+
+  click              anaconda/osx-64::click-7.0-py36_0
+  flask              anaconda/osx-64::flask-1.0.2-py36_1
+  itsdangerous       anaconda/osx-64::itsdangerous-1.1.0-py36_0
+  jinja2             anaconda/osx-64::jinja2-2.10.1-py36_0
+  markupsafe         anaconda/osx-64::markupsafe-1.1.1-py36h1de35cc_0
+  werkzeug           anaconda/noarch::werkzeug-0.15.2-py_0
+
+The following packages will be UPDATED:
+
+  openssl            conda-forge::openssl-1.1.1b-h01d97ff_2 --> anaconda::openssl-1.1.1-h1de35cc_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    conda-forge::ca-certificates-2019.3.9~ --> anaconda::ca-certificates-2019.1.23-0
+  certifi                                       conda-forge --> anaconda
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+itsdangerous-1.1.0   | 26 KB     | ########################################################### | 100% 
+flask-1.0.2          | 119 KB    | ########################################################### | 100% 
+markupsafe-1.1.1     | 28 KB     | ########################################################### | 100% 
+jinja2-2.10.1        | 188 KB    | ########################################################### | 100% 
+certifi-2019.3.9     | 155 KB    | ########################################################### | 100% 
+click-7.0            | 118 KB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:~ alpona$ conda install -c conda-forge python-socketio
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - python-socketio
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2019.3.9           |           py36_0         149 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         149 KB
+
+The following NEW packages will be INSTALLED:
+
+  python-engineio    conda-forge/noarch::python-engineio-3.0.0-py_0
+  python-socketio    conda-forge/noarch::python-socketio-4.0.0-py_0
+
+The following packages will be UPDATED:
+
+  ca-certificates     anaconda::ca-certificates-2019.1.23-0 --> conda-forge::ca-certificates-2019.3.9-hecc5488_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi                                          anaconda --> conda-forge
+  openssl                anaconda::openssl-1.1.1-h1de35cc_0 --> conda-forge::openssl-1.1.1b-h01d97ff_2
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+certifi-2019.3.9     | 149 KB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:~ alpona$ cd Desktop/behaviour\ clonning/
+(myenviron) sirin:behaviour clonning alpona$ conda activate myenviron
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+(98822) wsgi starting up on http://0.0.0.0:4567
+(98822) accepted ('127.0.0.1', 54575)
+Connected
+127.0.0.1 - - [28/Apr/2019 14:32:36] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 200 0 12.172088
+^Cwsgi exiting
+(98822) wsgi exited, is_accepting=True
+(myenviron) sirin:behaviour clonning alpona$ conda activate myenviron
+(myenviron) sirin:behaviour clonning alpona$ python drive.py
+(1458) wsgi starting up on http://0.0.0.0:4567
+(1458) accepted ('127.0.0.1', 54590)
+Connected
+127.0.0.1 - - [28/Apr/2019 14:36:56] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 200 0 27.811862
+^Cwsgi exiting
+(1458) wsgi exited, is_accepting=True
+(myenviron) sirin:behaviour clonning alpona$ conda activate myenviron
+(myenviron) sirin:behaviour clonning alpona$ conda install -c conda-forge tensorflow
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - tensorflow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    absl-py-0.7.1              |           py36_0         154 KB  conda-forge
+    grpcio-1.16.1              |   py36h044775b_1         944 KB
+    h5py-2.9.0                 |nompi_py36h35dc34b_1102         965 KB  conda-forge
+    hdf5-1.10.4                |nompi_h0cbb7df_1106         4.5 MB  conda-forge
+    keras-2.1.6                |           py36_0         500 KB  conda-forge
+    libblas-3.8.0              |       7_openblas           6 KB  conda-forge
+    libcblas-3.8.0             |       7_openblas           6 KB  conda-forge
+    libgfortran-3.0.1          |                0         495 KB  conda-forge
+    libgpuarray-0.7.6          |    h1de35cc_1003         188 KB  conda-forge
+    liblapack-3.8.0            |       7_openblas           6 KB  conda-forge
+    mako-1.0.7                 |             py_1          57 KB  conda-forge
+    numpy-1.16.3               |   py36hdf140aa_0         4.1 MB  conda-forge
+    openblas-0.3.5             |    h436c29b_1001        17.5 MB  conda-forge
+    protobuf-3.7.1             |   py36h6de7cb9_0         633 KB  conda-forge
+    pygpu-0.7.6                |py36h917ab60_1000         604 KB  conda-forge
+    pyyaml-5.1                 |   py36h1de35cc_0         166 KB  conda-forge
+    scipy-1.2.1                |   py36hbd7caa9_1        15.7 MB  conda-forge
+    tensorboard-1.13.1         |           py36_0         3.3 MB  conda-forge
+    tensorflow-1.13.1          |           py36_0        57.2 MB  conda-forge
+    tensorflow-estimator-1.13.0|   py36h24bf2e0_0         472 KB  conda-forge
+    theano-1.0.3               |           py36_0         3.7 MB  conda-forge
+    yaml-0.1.7                 |    h1de35cc_1001          79 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       111.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  absl-py            conda-forge/osx-64::absl-py-0.7.1-py36_0
+  astor              conda-forge/noarch::astor-0.7.1-py_0
+  c-ares             conda-forge/osx-64::c-ares-1.15.0-h1de35cc_1001
+  gast               conda-forge/noarch::gast-0.2.2-py_0
+  grpcio             pkgs/main/osx-64::grpcio-1.16.1-py36h044775b_1
+  h5py               conda-forge/osx-64::h5py-2.9.0-nompi_py36h35dc34b_1102
+  hdf5               conda-forge/osx-64::hdf5-1.10.4-nompi_h0cbb7df_1106
+  keras              conda-forge/osx-64::keras-2.1.6-py36_0
+  keras-applications conda-forge/noarch::keras-applications-1.0.7-py_0
+  keras-preprocessi~ conda-forge/noarch::keras-preprocessing-1.0.9-py_0
+  libblas            conda-forge/osx-64::libblas-3.8.0-7_openblas
+  libcblas           conda-forge/osx-64::libcblas-3.8.0-7_openblas
+  libgfortran        conda-forge/osx-64::libgfortran-3.0.1-0
+  libgpuarray        conda-forge/osx-64::libgpuarray-0.7.6-h1de35cc_1003
+  liblapack          conda-forge/osx-64::liblapack-3.8.0-7_openblas
+  libprotobuf        conda-forge/osx-64::libprotobuf-3.7.1-hfbae3c0_0
+  mako               conda-forge/noarch::mako-1.0.7-py_1
+  markdown           conda-forge/noarch::markdown-2.6.11-py_0
+  numpy              conda-forge/osx-64::numpy-1.16.3-py36hdf140aa_0
+  openblas           conda-forge/osx-64::openblas-0.3.5-h436c29b_1001
+  protobuf           conda-forge/osx-64::protobuf-3.7.1-py36h6de7cb9_0
+  pygpu              conda-forge/osx-64::pygpu-0.7.6-py36h917ab60_1000
+  pyyaml             conda-forge/osx-64::pyyaml-5.1-py36h1de35cc_0
+  scipy              conda-forge/osx-64::scipy-1.2.1-py36hbd7caa9_1
+  tensorboard        conda-forge/osx-64::tensorboard-1.13.1-py36_0
+  tensorflow         conda-forge/osx-64::tensorflow-1.13.1-py36_0
+  tensorflow-estima~ conda-forge/osx-64::tensorflow-estimator-1.13.0-py36h24bf2e0_0
+  termcolor          conda-forge/noarch::termcolor-1.1.0-py_2
+  theano             conda-forge/osx-64::theano-1.0.3-py36_0
+  yaml               conda-forge/osx-64::yaml-0.1.7-h1de35cc_1001
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+openblas-0.3.5       | 17.5 MB   | ########################################################### | 100% 
+pygpu-0.7.6          | 604 KB    | ########################################################### | 100% 
+theano-1.0.3         | 3.7 MB    | ########################################################### | 100% 
+libblas-3.8.0        | 6 KB      | ########################################################### | 100% 
+grpcio-1.16.1        | 944 KB    | ########################################################### | 100% 
+pyyaml-5.1           | 166 KB    | ########################################################### | 100% 
+libgfortran-3.0.1    | 495 KB    | ########################################################### | 100% 
+keras-2.1.6          | 500 KB    | ########################################################### | 100% 
+scipy-1.2.1          | 15.7 MB   | ########################################################### | 100% 
+liblapack-3.8.0      | 6 KB      | ########################################################### | 100% 
+tensorflow-estimator | 472 KB    | ########################################################### | 100% 
+yaml-0.1.7           | 79 KB     | ########################################################### | 100% 
+hdf5-1.10.4          | 4.5 MB    | ########################################################### | 100% 
+tensorboard-1.13.1   | 3.3 MB    | ########################################################### | 100% 
+numpy-1.16.3         | 4.1 MB    | ########################################################### | 100% 
+absl-py-0.7.1        | 154 KB    | ########################################################### | 100% 
+tensorflow-1.13.1    | 57.2 MB   | ########################################################### | 100% 
+libcblas-3.8.0       | 6 KB      | ########################################################### | 100% 
+libgpuarray-0.7.6    | 188 KB    | ########################################################### | 100% 
+mako-1.0.7           | 57 KB     | ########################################################### | 100% 
+protobuf-3.7.1       | 633 KB    | ########################################################### | 100% 
+h5py-2.9.0           | 965 KB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:behaviour clonning alpona$ conda install -c conda-forge keras
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - keras
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    backports-1.0              |             py_2           4 KB  conda-forge
+    backports.weakref-1.0rc1   |           py36_1           7 KB  conda-forge
+    bleach-1.5.0               |           py36_0          23 KB  conda-forge
+    html5lib-0.9999999         |           py36_0         181 KB  conda-forge
+    keras-2.2.4                |           py36_0         456 KB  conda-forge
+    keras-applications-1.0.4   |             py_1          26 KB  conda-forge
+    keras-preprocessing-1.0.2  |             py_1          26 KB  conda-forge
+    mock-2.0.0                 |        py36_1001         106 KB  conda-forge
+    pbr-5.1.3                  |             py_0          70 KB  conda-forge
+    tensorflow-1.3.0           |           py36_0        32.7 MB  conda-forge
+    webencodings-0.5.1         |             py_1          12 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        33.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  backports          conda-forge/noarch::backports-1.0-py_2
+  backports.weakref  conda-forge/osx-64::backports.weakref-1.0rc1-py36_1
+  bleach             conda-forge/osx-64::bleach-1.5.0-py36_0
+  html5lib           conda-forge/osx-64::html5lib-0.9999999-py36_0
+  mock               conda-forge/osx-64::mock-2.0.0-py36_1001
+  pbr                conda-forge/noarch::pbr-5.1.3-py_0
+  webencodings       conda-forge/noarch::webencodings-0.5.1-py_1
+
+The following packages will be UPDATED:
+
+  keras                                        2.1.6-py36_0 --> 2.2.4-py36_0
+
+The following packages will be DOWNGRADED:
+
+  keras-applications                             1.0.7-py_0 --> 1.0.4-py_1
+  keras-preprocessi~                             1.0.9-py_0 --> 1.0.2-py_1
+  tensorflow                                  1.13.1-py36_0 --> 1.3.0-py36_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+html5lib-0.9999999   | 181 KB    | ########################################################### | 100% 
+mock-2.0.0           | 106 KB    | ########################################################### | 100% 
+keras-applications-1 | 26 KB     | ########################################################### | 100% 
+backports-1.0        | 4 KB      | ########################################################### | 100% 
+keras-preprocessing- | 26 KB     | ########################################################### | 100% 
+bleach-1.5.0         | 23 KB     | ########################################################### | 100% 
+pbr-5.1.3            | 70 KB     | ########################################################### | 100% 
+keras-2.2.4          | 456 KB    | ########################################################### | 100% 
+webencodings-0.5.1   | 12 KB     | ########################################################### | 100% 
+tensorflow-1.3.0     | 32.7 MB   | ########################################################### | 100% 
+backports.weakref-1. | 7 KB      | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:behaviour clonning alpona$ conda install -c conda-forge anaconda pillow
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+  added / updated specs:
+    - anaconda
+    - pillow
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    anaconda-custom            |   py36ha4fed55_0           6 KB
+    freetype-2.10.0            |       h24853df_0         881 KB  conda-forge
+    libpng-1.6.37              |       h2573ce8_0         298 KB  conda-forge
+    libtiff-4.0.10             |    h344961e_1002         561 KB  conda-forge
+    olefile-0.46               |             py_0          31 KB  conda-forge
+    pillow-6.0.0               |   py36h7095ceb_0         572 KB  conda-forge
+    zstd-1.3.3                 |                1         1.1 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         3.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  anaconda           pkgs/main/osx-64::anaconda-custom-py36ha4fed55_0
+  freetype           conda-forge/osx-64::freetype-2.10.0-h24853df_0
+  jpeg               conda-forge/osx-64::jpeg-9c-h1de35cc_1001
+  libpng             conda-forge/osx-64::libpng-1.6.37-h2573ce8_0
+  libtiff            conda-forge/osx-64::libtiff-4.0.10-h344961e_1002
+  olefile            conda-forge/noarch::olefile-0.46-py_0
+  pillow             conda-forge/osx-64::pillow-6.0.0-py36h7095ceb_0
+  zstd               conda-forge/osx-64::zstd-1.3.3-1
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+olefile-0.46         | 31 KB     | ########################################################### | 100% 
+anaconda-custom      | 6 KB      | ########################################################### | 100% 
+libtiff-4.0.10       | 561 KB    | ########################################################### | 100% 
+freetype-2.10.0      | 881 KB    | ########################################################### | 100% 
+zstd-1.3.3           | 1.1 MB    | ########################################################### | 100% 
+libpng-1.6.37        | 298 KB    | ########################################################### | 100% 
+pillow-6.0.0         | 572 KB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(myenviron) sirin:behaviour clonning alpona$ conda install -c conda-forge anaconda numpy
+Collecting package metadata: done
+Solving environment: done
+
+# All requested packages already installed.
+
+(myenviron) sirin:behaviour clonning alpona$ 

@@ -1,0 +1,71 @@
+(base) sirin:Desktop alpona$ 
+(base) sirin:Desktop alpona$ 
+(base) sirin:Desktop alpona$ cd
+(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ conda install -c anaconda flask
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3
+
+  added / updated specs:
+    - flask
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2019.1.23  |                0         126 KB  anaconda
+    certifi-2019.3.9           |           py37_0         155 KB  anaconda
+    conda-4.6.14               |           py37_0         2.1 MB  anaconda
+    flask-1.0.2                |           py37_1         119 KB  anaconda
+    openssl-1.1.1b             |       h1de35cc_1         3.4 MB  anaconda
+    ------------------------------------------------------------
+                                           Total:         5.9 MB
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates                                 pkgs/main --> anaconda
+  certifi                                         pkgs/main --> anaconda
+  conda                                           pkgs/main --> anaconda
+  flask                                           pkgs/main --> anaconda
+  openssl                                         pkgs/main --> anaconda
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+certifi-2019.3.9     | 155 KB    | ##################################### | 100% 
+flask-1.0.2          | 119 KB    | ##################################### | 100% 
+conda-4.6.14         | 2.1 MB    | ##################################### | 100% 
+openssl-1.1.1b       | 3.4 MB    | ##################################### | 100% 
+ca-certificates-2019 | 126 KB    | ##################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(base) sirin:~ alpona$ 

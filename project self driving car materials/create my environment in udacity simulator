@@ -1,0 +1,56 @@
+Last login: Sun Apr 28 13:48:00 on ttys001
+exit
+^X^C(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ cd Desktop/
+(base) sirin:Desktop alpona$ conda create --name myenviron
+Collecting package metadata: done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: /anaconda3/envs/myenviron
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate myenviron
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(base) sirin:Desktop alpona$ source activate my environ
+
+
+

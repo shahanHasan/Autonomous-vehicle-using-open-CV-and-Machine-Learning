@@ -1,0 +1,122 @@
+
+  ca-certificates                                 pkgs/main --> anaconda
+  certifi                                         pkgs/main --> anaconda
+  conda                                           pkgs/main --> anaconda
+  flask                                           pkgs/main --> anaconda
+  openssl                                         pkgs/main --> anaconda
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+certifi-2019.3.9     | 155 KB    | ##################################### | 100% 
+flask-1.0.2          | 119 KB    | ##################################### | 100% 
+conda-4.6.14         | 2.1 MB    | ##################################### | 100% 
+openssl-1.1.1b       | 3.4 MB    | ##################################### | 100% 
+ca-certificates-2019 | 126 KB    | ##################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(base) sirin:~ alpona$ clea
+-bash: clea: command not found
+(base) sirin:~ alpona$ clear
+
+(base) sirin:~ alpona$ 
+(base) sirin:~ alpona$ cd Desktop/behaviour\ clonning/
+(base) sirin:behaviour clonning alpona$ ls
+drive.py	model.h5
+(base) sirin:behaviour clonning alpona$ python drive.py
+ * Serving Flask app "drive" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+(base) sirin:behaviour clonning alpona$ conda install -c conda-forge python-socketio
+Collecting package metadata: done
+Solving environment: - 
+Warning: 2 possible package resolutions (only showing differing packages):
+  - anaconda::ca-certificates-2019.1.23-0
+  - defaults::ca-certificates-2019.1.23done
+
+## Package Plan ##
+
+  environment location: /anaconda3
+
+  added / updated specs:
+    - python-socketio
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2019.3.9           |           py37_0         149 KB  conda-forge
+    conda-4.6.14               |           py37_0         2.1 MB  conda-forge
+    openssl-1.1.1b             |       h1de35cc_1         3.5 MB  conda-forge
+    python-engineio-3.0.0      |             py_0          24 KB  conda-forge
+    python-socketio-4.0.0      |             py_0          26 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         5.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  python-engineio    conda-forge/noarch::python-engineio-3.0.0-py_0
+  python-socketio    conda-forge/noarch::python-socketio-4.0.0-py_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi                                          anaconda --> conda-forge
+  conda                                            anaconda --> conda-forge
+  openssl                                          anaconda --> conda-forge
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+certifi-2019.3.9     | 149 KB    | ########################################################### | 100% 
+python-socketio-4.0. | 26 KB     | ########################################################### | 100% 
+openssl-1.1.1b       | 3.5 MB    | ########################################################### | 100% 
+conda-4.6.14         | 2.1 MB    | ########################################################### | 100% 
+python-engineio-3.0. | 24 KB     | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(base) sirin:behaviour clonning alpona$ conda install -c conda-forge eventlet
+Collecting package metadata: done
+Solving environment: - 
+Warning: 2 possible package resolutions (only showing differing packages):
+  - anaconda::ca-certificates-2019.1.23-0
+  - defaults::ca-certificates-2019.1.23done
+
+## Package Plan ##
+
+  environment location: /anaconda3
+
+  added / updated specs:
+    - eventlet
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    eventlet-0.23.0            |        py37_1000         534 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         534 KB
+
+The following NEW packages will be INSTALLED:
+
+  eventlet           conda-forge/osx-64::eventlet-0.23.0-py37_1000
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+eventlet-0.23.0      | 534 KB    | ########################################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(base) sirin:behaviour clonning alpona$ 
