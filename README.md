@@ -1,7 +1,7 @@
 # Autonomous-vehicle-using-open-CV-and-Machine-Learning
-This is my final year project .
+**This is my final year project . **
 
-abstract : 
+## Abstract : 
 
 The proposition of the project undertaken is to design, develop and implement an RC car employing a Raspberry pi (Computer), 
 deep convoluted neural networks and SLAM. The objective is to successfully employ the concept of behaviour cloning within the 
